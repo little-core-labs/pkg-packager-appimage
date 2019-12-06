@@ -1,6 +1,6 @@
 {
   "name": "pkg-packager-appimage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A pkg-packager builder for AppImage.",
   "main": "index.js",
   "scripts": {
