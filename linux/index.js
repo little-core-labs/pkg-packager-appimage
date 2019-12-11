@@ -183,7 +183,7 @@ function appimageBuilder(target, opts) {
             if (data) {
               response = JSON.parse(data.toString())
               Object.assign(response, {
-                name: path.basename(appBuilder.outputName)
+                name: appBuilder.outputName,
               })
             }
 
