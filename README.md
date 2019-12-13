@@ -16,7 +16,7 @@ included by default in the [`pkg-packager`][pkg-packager] module and
 can be used by specifying the packager target type programmitacally or
 from the command line with the `pkg-packager(1)` command.
 
-```js
+```sh
 $ echo 'console.log("hello world")' > hello.js
 $ pkg-package --type appimage hello.js ## assumes `linux` as host
 $ ./build/x64/linux/hello.AppImage
